@@ -1,0 +1,42 @@
+{
+  "index.html": {
+    "resources": [
+      "images/wasFarm.png",
+      "images/wasIT.png",
+      "images/indexFlowers01.png",
+      "images/lightOffBg.jpg",
+      "js/TouchFunction.js",
+      "images/myTeamWall.png",
+      "images/bus.png",
+      "images/lightOnBg.jpg",
+      "images/music.mp3",
+      "images/arrow-up.png",
+      "images/clickGuide.png",
+      "images/indexBuilding.png",
+      "images/indexFlowers02.png",
+      "images/lastBusTitle.png",
+      "js/jquery-1.11.0.js",
+      "images/musicBtn.png",
+      "css/animation.css",
+      "images/myteamWhereTxt.png",
+      "images/myTeamSpace.png",
+      "images/indexTxt.png",
+      "images/indexElements.png",
+      "images/lightOff.png",
+      "css/style.css",
+      "images/cornerTitle.png",
+      "images/indexFlight.png",
+      "js/animation.js",
+      "images/lightOn.png",
+      "images/indexCloud.png",
+      "images/lastBusAvatar.png",
+      "images/myTeamAvatar.png",
+      "images/lastBusStation.png",
+      "images/weKnowYou.png",
+      "images/earlyTitle.png",
+      "images/wasBg.jpg",
+      "images/earlyBg.jpg",
+      "images/musicBtnOff.png"
+    ]
+  }
+}

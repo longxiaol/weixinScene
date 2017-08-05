@@ -1,0 +1,342 @@
+	.animation-delay500ms {
+		animation-delay: 500ms;
+	}
+	
+	.animation-delay1s {
+		animation-delay: 1s;
+	}
+	
+	.animation-delay1500ms {
+		animation-delay: 1500ms;
+	}
+	
+	.animation-delay2s {
+		animation-delay: 2s;
+	}
+	
+	.animation-delay2500ms {
+		animation-delay: 2500ms;
+	}
+	
+	.animation-delay4500ms {
+		animation-delay: 4500ms;
+	}
+	
+	.animation-delay6500ms {
+		animation-delay: 6500ms;
+	}
+	
+	.animation-delay7500ms {
+		animation-delay: 7500ms;
+	}
+	
+	.animation-delay8500ms {
+		animation-delay: 8500ms;
+	}
+	
+	@keyframes roll {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+	
+	.roll {
+		animation: roll 2s linear infinite;
+		-webkit-animation: roll 2s linear infinite;
+	}
+	
+	@keyframes upDown {
+		0% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-50%);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+	
+	.upDown {
+		animation: upDown 2s linear infinite;
+		-webkit-animation: upDown 2s linear infinite;
+	}
+	/*********************************************************当前页向上的动画*****************************************************/
+	
+	@keyframes toTop {
+		0% {
+			transform: translateY(0%);
+		}
+		100% {
+			transform: translateY(-100%);
+		}
+	}
+	
+	@-webkit-keyframes toTop {
+		0% {
+			transform: translateY(0%);
+		}
+		100% {
+			transform: translateY(-100%);
+		}
+	}
+	
+	.toTop {
+		animation-name: toTop;
+		animation-duration: .5s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		/*animation-iteration-count: 1;*/
+		-webkit-animation-name: toTop;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}
+	/*当前向下动画*/
+	
+	@keyframes toBottom {
+		0% {
+			transform: translateY(0%);
+		}
+		100% {
+			transform: translateY(100%);
+		}
+	}
+	
+	.toBottom {
+		animation-name: toBottom;
+		animation-duration: .5s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		-webkit-animation-name: toBottom;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}
+	/********************************************************上一页向下的动画**************************************************/
+	
+	@keyframes prevBottom {
+		0% {
+			transform: translateY(-100%);
+		}
+		100% {
+			transform: translateY(0%);
+		}
+	}
+	
+	.prevBottom {
+		animation-name: prevBottom;
+		animation-duration: .5s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		-webkit-animation-name: prevBottom;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}
+	/********************************************************下一页向上****************************************************/
+	
+	@keyframes nextTop {
+		0% {
+			transform: translateY(100%);
+		}
+		100% {
+			transform: translateY(0%);
+		}
+	}
+	
+	.nextTop {
+		animation-name: nextTop;
+		animation-duration: .5s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		-webkit-animation-name: nextTop;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}
+	/**********************************************************第一页动画*********************************************************/
+	
+	@keyframes rotate {
+		0% {
+			transform: rotate(0deg);
+		}
+		25% {
+			transform: rotate(30deg);
+		}
+		75% {
+			transform: rotate(-30deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+	
+	.rotate {
+		animation: rotate 2s linear infinite;
+	}
+	
+	@keyframes scale {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(0.8);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+	
+	.scale {
+		animation: scale 2s linear infinite;
+	}
+	
+	@keyframes flyIn {
+		0% {
+			transform: translateY(-100%) scale(0);
+		}
+		50% {
+			transform: translateY(0%) scale(0.5);
+		}
+		100% {
+			transform: translateY(0%) scale(1);
+		}
+	}
+	
+	.flyIn {
+		animation-name: flyIn;
+		animation-duration: 2s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		-webkit-animation-name: flyIn;
+		-webkit-animation-duration: 2s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}
+	
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	
+	.fadeIn {
+		animation-name: fadeIn;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		-webkit-animation-name: fadeIn;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}
+	/**********************************************************第二页动画*********************************************************/
+	
+	@keyframes wasFadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	
+	.wasFadeIn {
+		animation-name: wasFadeIn;
+		animation-duration: 2s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		-webkit-animation-name: wasFadeIn;
+		-webkit-animation-duration: 2s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}
+	/*********************************************************第三页动画***********************************************************/
+	
+	@keyframes go {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-300px);
+		}
+	}
+	
+	.go {
+		animation-name: go;
+		animation-duration: 2s;
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+		-webkit-animation-name: go;
+		-webkit-animation-duration: 2s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+	
+	@keyframes zoom1 {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 30%;
+		}
+	}
+	
+	.zoom1 {
+		animation-name: zoom1;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		-webkit-animation-name: zoom1;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}
+	
+	@keyframes zoom2 {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 55%;
+		}
+	}
+	
+	.zoom2 {
+		animation-name: zoom2;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		-webkit-animation-name: zoom2;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}
+	/************************************************************第四页动画*********************************************************/
+	
+	@keyframes fadeOut {
+		0% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+	
+	.fadeOut {
+		animation-name: fadeOut;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		-webkit-animation-name: fadeOut;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: linear;
+	}

@@ -1,0 +1,249 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.music {
+	width: 12%;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 99;
+}
+
+.up {
+	width: 20%;
+	left: 40%;
+	bottom: 3%;
+	position: fixed;
+	z-index: 99;
+}
+
+.box {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.box .page {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.page1 {
+	background-color: cyan;
+	z-index: 9;
+}
+
+.page2 {
+	background-color: black;
+	z-index: 8;
+}
+
+.page3 {
+	background-color: white;
+	z-index: 7;
+}
+
+.page4 {
+	background-color: lightblue;
+	z-index: 6;
+}
+
+.hidden {
+	display: none;
+}
+
+
+/***********************************************第一页样式**********************************************************/
+
+.page1 img {
+	position: absolute;
+}
+
+.page1 text {
+	width: 60%;
+	top: 10%;
+	left: 20%;
+}
+
+.page1 .flower1 {
+	width: 20%;
+	left: 10%;
+	top: 10%;
+	transform-origin: bottom;
+}
+
+.page1 .flower2 {
+	width: 20%;
+	right: 15%;
+	top: 20%;
+	transform-origin: top;
+}
+
+.page1 .cloud {
+	width: 100%;
+	height: 100%;
+}
+
+.page1 .flight {
+	width: 90%;
+	bottom: 30%;
+	left: 5%;
+}
+
+.page1 .building {
+	width: 100%;
+	bottom: 0;
+}
+
+
+/***********************************************第二页样式**********************************************************/
+
+.page2 img {
+	position: absolute;
+}
+
+.page2 bg {
+	width: 100%;
+	height: 100%;
+}
+
+.page2 .farm {
+	width: 70%;
+	right: 0;
+	top: 30%;
+}
+
+.page2 .it {
+	width: 70%;
+	right: 0;
+	top: 60%;
+}
+
+
+/***********************************************第三页样式**********************************************************/
+
+.page3 img {
+	position: absolute;
+}
+
+.page3 .bg {
+	width: 100%;
+	height: 100%;
+}
+
+.page3 .station {
+	width: 100%;
+	bottom: 0;
+}
+
+.page3 .title1 {
+	width: 30%;
+	top: 10%;
+}
+
+.page3 .title2 {
+	width: 40%;
+	top: 20%;
+}
+
+.page3 .bus {
+	width: 70%;
+	bottom: 5%;
+}
+
+.page3 .person1 {
+	width: 30%;
+	bottom: 8%;
+	right: -30%;
+}
+
+.page3 .bg2 {
+	width: 100%;
+	height: 100%;
+}
+
+.page3 .wall {
+	width: 35%;
+	bottom: 0;
+	right: 0;
+}
+
+.page3 .person2 {
+	width: 25%;
+	top: 18%;
+	right: 14%;
+}
+
+.page3 .space {
+	width: 30%;
+	top: 20%;
+	left: 3%;
+}
+
+.page3 .where {
+	width: 55%;
+	left: 10%;
+	bottom: 10%;
+}
+
+
+/***********************************************第四页样式**********************************************************/
+
+.page4 img {
+	position: absolute;
+}
+
+.page4 .bg1 {
+	width: 100%;
+	height: 100%;
+}
+
+.page4 .title {
+	width: 40%;
+	right: 0;
+	top: 15%;
+}
+
+.page4 .guide {
+	width: 50%;
+	left: 25%;
+	top: 40%;
+}
+
+.page4 .off {
+	height: 70%;
+	left: 5%;
+	bottom: 0;
+}
+
+.page4 .on {
+	height: 70%;
+	left: 5%;
+	bottom: 0;
+	z-index: 99;
+	opacity: 0;
+}
+
+.page4 .bg2 {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.page4 .know {
+	width: 50%;
+	top: 30%;
+	left: 25%;
+	opacity: 0;
+}
